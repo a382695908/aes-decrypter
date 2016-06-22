@@ -21,6 +21,7 @@
       "github": "https://github.com/bcasey"
     }
   ],
+  "bin": "./bin/index.js",
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm-run-all -p build:*",
@@ -75,6 +76,7 @@
     "test/"
   ],
   "dependencies": {
+    "commander": "^2.9.0",
     "pkcs7": "^0.2.3"
   },
   "devDependencies": {
